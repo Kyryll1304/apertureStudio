@@ -90,6 +90,9 @@ body {
 }
 .middleBlock {
   background-color: black;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-bottom: 100px;
 }
 .middleBlock h1 {
   font-size: 40px;
@@ -108,20 +111,72 @@ body {
   padding-top: 15px;
   padding-bottom: 42px;
 }
-.middleFlex {
-  display: flex;
+.middleBlock h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 11vw;
 }
-.middleFlexSection {
-  display: flex;
-  align-items: space-between;
+.middleBlock p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #c0c0c0;
+  font-weight: 400;
+  padding: 5px;
+  width: 30vw;
+}
+.btn {
+  width: 7vw;
+}
+.MFI {
+  display: inline-block;
+  margin: 1vw;
+  background-image: url(img/image.png);
+  width: 40vw;
+  height: 40vw;
+  background-size: cover;
+}
+.MFIOne {
+  background-image: url(img/imageOne.png);
+  width: 40vw;
+  height: 40vw;
+  background-size: cover;
+  margin: 1vw;
+  display: inline-block;
+}
+.MFITwo {
+  display: inline-block;
+  background-image: url(img/imageTwo.png);
+  width: 40vw;
+  height: 40vw;
+  background-size: cover;
+  margin: 1vw;
+}
+.MFIThree {
+  display: inline-block;
+  background-image: url(img/imageThree.png);
+  width: 40vw;
+  height: 40vw;
+  background-size: cover;
+  margin: 1vw;
+}
+.middleFLex {
+  text-align: left;
+  flex-shrink: 2;
   flex-wrap: wrap;
-  height: 1300px;
-  width: 1215px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
-.middleFlexItem {
-  padding: 10px 15px;
+.MFS {
+  text-align: left;
+  display: flex;
+  flex-shrink: 2;
+  align-items: center;
+  flex-direction: row;
 }
-.middleFLexItemOne {
-  background: url(/img/imageOne.svg);
-  background-color: transparent;
+.middleFlex h3 {
+  text-align: left;
 }
