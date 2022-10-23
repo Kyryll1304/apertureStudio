@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
-.header {
+header {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -22,7 +22,7 @@ body {
   display: flex;
   align-items: center;
 }
-.header a {
+header a {
   transition: 0.4s ease-in-out;
   text-decoration: none;
   color: #fff;
@@ -42,14 +42,15 @@ body {
 .HeaderLogo {
   padding: 18px 15px;
 }
-.headerImage {
+#FirstBlock {
   padding-top: 466px;
   padding-bottom: 71px;
   text-align: center;
   background-image: url(img/IMAGE.svg);
   background-size: cover;
 }
-.headerImage h2 {
+
+#FirstBlock h2 {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -57,7 +58,7 @@ body {
   text-transform: uppercase;
   color: #c0c0c0;
 }
-.headerImage h1 {
+#FirstBlock h1 {
   max-width: 40vw;
   padding-bottom: 18px;
   line-height: 60px;
@@ -65,7 +66,7 @@ body {
   font-size: 54px;
   color: #fff;
 }
-.headerImage p {
+#FirstBlock p {
   color: #c0c0c0;
   font-size: 14px;
   max-width: 50vw;
@@ -81,20 +82,20 @@ body {
   align-items: flex-start;
 }
 .flexItem a {
-  color: #c0c0c0;
+  color: #fff;
   font-size: 12px;
 }
 
 .flexItem {
   padding: 0 5px;
 }
-.middleBlock {
+#SecondBlock {
   background-color: black;
   padding-left: 7vw;
   padding-right: 7vw;
   padding-bottom: 100px;
 }
-.middleBlock h1 {
+#SecondBlock h1 {
   font-size: 40px;
   line-height: 42px;
   font-weight: 400;
@@ -102,7 +103,7 @@ body {
   color: #fff;
   padding-top: 112px;
 }
-.middleBlock h2 {
+#SecondBlock h2 {
   font-size: 23px;
   line-height: 30px;
   font-weight: 400;
@@ -111,7 +112,7 @@ body {
   padding-top: 15px;
   padding-bottom: 42px;
 }
-.middleBlock h3 {
+#SecondBlock h3 {
   font-size: 14px;
   height: 3vw;
   color: #fff;
@@ -121,7 +122,7 @@ body {
   padding-bottom: 0.7vw;
   width: 40vw;
 }
-.middleBlock p {
+#SecondBlock p {
   font-size: 14px;
   height: 3vw;
   color: #c0c0c0;
@@ -181,28 +182,287 @@ body {
   justify-content: space-between;
   padding: 5px;
 }
-.PhotoBlock {
+#ThirdBlock {
   background-image: url(img/fuji.svg);
   background-size: cover;
   text-align: left;
   width: 100%;
   height: 42vw;
-  padding-top: 10vw;
+  padding-top: 20vw;
+  padding-left: 75vw;
 }
-.PhotoBlock h3 {
+#ThirdBlock h3 {
   text-align: left;
-  width: 42vw;
+  width: 20vw;
   height: 1.5vw;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
-.PhotoBlock p {
-  width: 42vw;
+#ThirdBlock p {
+  width: 20vw;
   height: 4.2vw;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #c0c0c0;
+}
+.flexTwo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10vw;
+}
+.FTS {
+  display: flex;
+  align-items: flex-start;
+}
+#FourthBlock {
+  display: flex;
+}
+.FBT {
+  display: inline-block;
+  width: 50%;
+  height: 42vw;
+  background-color: black;
+  padding-top: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.FBP {
+  display: inline-block;
+  width: 50%;
+  height: 42vw;
+  background-image: url(img/fourthBlockImg.svg);
+  background-size: cover;
+  padding-top: 27vw;
+  padding-left: 25vw;
+}
+.FBT h2 {
+  width: 100%;
+  height: 1.5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: #c0c0c0;
+  text-transform: uppercase;
+  margin-bottom: 2vw;
+}
+.FBT h1 {
+  width: 100%;
+  height: 3vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 4vw;
+}
+.FBT p {
+  width: 100%;
+  line-height: 20px;
+  height: 5vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  color: #fff;
+  margin-bottom: 4vw;
+}
+.sBtn {
+  margin-top: 1vw;
+}
+#FifthBlock {
+  background-image: url(img/paporotnik.svg);
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  height: 42vw;
+  padding-top: 20vw;
+  padding-left: 75vw;
+}
+#FifthBlock h3 {
+  text-align: left;
+  width: 20vw;
+  height: 1.5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#FifthBlock p {
+  width: 20vw;
+  height: 4.2vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+#BlockSix {
+  width: 100%;
+  height: 42vw;
+  background-color: black;
+  text-align: center;
+  padding-top: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+#BlockSix h1 {
+  width: 30vw;
+  height: 1vw;
+  font-size: 3vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+#BlockSix h2 {
+  width: 30vw;
+  height: 1vw;
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #c0c0c0;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+.FlexThree {
+  display: flex;
+  height: 20vw;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+}
+.FTSTwo {
+  display: flex;
+  height: 20vw;
+  width: 100%;
+  align-items: center;
+}
+.FlexItemLogo {
+  display: flex;
+  object-fit: contain;
+  padding: 0 5px;
+  width: 5vw;
+  height: 10vw;
+  align-self: baseline;
+}
+#SevenBlock {
+  background-image: url(img/starFall.svg);
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  height: 42vw;
+  padding-top: 20vw;
+  padding-left: 75vw;
+}
+#SevenBlock h3 {
+  text-align: left;
+  width: 20vw;
+  height: 1.5vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#SevenBlock p {
+  width: 20vw;
+  height: 4.2vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #c0c0c0;
+}
+#BlockEight {
+  width: 100%;
+  height: 35vw;
+  background-color: black;
+  text-align: center;
+  padding-top: 10vw;
+}
+#BlockEight h1 {
+  width: 50vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  color: #fff;
+  font-weight: 250;
+}
+#BlockEight h2 {
+  width: 50vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw;
+  color: #c0c0c0;
+  font-weight: 250;
+  margin-bottom: 5vw;
+}
+footer {
+  background-color: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 10vw;
+  background-color: black;
+}
+.footer_section {
+  display: flex;
+  align-items: center;
+}
+footer a {
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+footer p {
+  color: #c0c0c0;
+}
+
+.liHeader a {
+  text-transform: uppercase;
+
+  color: #c0c0c0;
+}
+.EFI {
+  padding: 10px 15px;
+}
+.footer_section li {
+  margin: 1vw;
+}
+.footer_section ul {
+  margin-top: 6vw;
+}
+.hr {
+  margin-left: 5vw;
+  height: 2px;
+  width: 90vw;
+}
+.email {
+  margin-left: 60vw;
+  margin-top: -2vw;
+  margin-bottom: 1vw;
+  width: 20vw;
+}
+footer h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1vw;
+  padding-top: 1vw;
+  padding-left: 5vw;
+}
+footer h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #c0c0c0;
+  font-size: 0.8vw;
+  padding-top: 1vw;
+  padding-left: 5vw;
 }
